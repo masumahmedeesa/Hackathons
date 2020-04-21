@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".homeMenu">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome "/>
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/InvestId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:text="Invest"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/LoanId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:text="Loan"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/LoanPaymentId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Loan Payment"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/WithdrawId"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Withdraw"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/GoToYourProfileId"
+        android:gravity="center"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Your Profile"
+        android:textAllCaps="false"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/CheckPreviousTransactionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check previous transaction"
+        android:textAllCaps="false"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:textSize="18sp"/>
+
+</LinearLayout>

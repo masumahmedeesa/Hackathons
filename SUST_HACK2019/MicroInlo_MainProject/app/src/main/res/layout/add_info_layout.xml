@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Addinfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Registration Form"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/u_name"
+                android:hint="Name"
+                android:layout_width="254dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:id="@+id/u_mothername"
+                android:hint="Mother's Name"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+
+            <EditText
+                android:id="@+id/u_fathername"
+                android:hint="Father's Name"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                />
+
+
+
+
+            <EditText
+                android:id="@+id/u_datebirth"
+                android:hint="Date of Birth(YYYY-MM-DD)"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="date"
+                />
+
+
+            <EditText
+                android:id="@+id/u_nid"
+                android:hint="NID"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                />
+
+
+            <EditText
+                android:id="@+id/u_parmanent"
+                android:hint="Parmanent Address"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                />
+
+
+            <EditText
+                android:id="@+id/u_blood"
+                android:hint="Blood Group"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                />
+
+            <EditText
+                android:id="@+id/u_mobile"
+                android:hint="Mobile"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                />
+
+
+            <EditText
+                android:id="@+id/u_password"
+                android:hint="Password"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/save_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:onClick="saveData"
+                android:text="CONFIRM"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
